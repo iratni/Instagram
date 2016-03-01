@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "160367205ECD5E32CA3E5D285B07F24B17862AAE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A96903C9C9E9B1D2EA59E15A7E2492FFC76AFE91" : 0,
+    "160367205ECD5E32CA3E5D285B07F24B17862AAE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "97D82928-688D-4649-8DF8-6F0523DE511B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A96903C9C9E9B1D2EA59E15A7E2492FFC76AFE91" : "",
+    "160367205ECD5E32CA3E5D285B07F24B17862AAE" : "Instagram\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Instagram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Instagram.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iratni\/Instagram.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "160367205ECD5E32CA3E5D285B07F24B17862AAE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iratni\/Instagram.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A96903C9C9E9B1D2EA59E15A7E2492FFC76AFE91"
+    }
+  ]
+}
