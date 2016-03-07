@@ -12,11 +12,7 @@ import Parse
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var usernameField: UITextField!
-    
     @IBOutlet weak var passwordField: UITextField!
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -68,5 +64,16 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+}
+
+extension LoginViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        if textField == usernameField {
+            passwordField.becomeFirstResponder()
+        }
+        
+        return true
+}
 
 }

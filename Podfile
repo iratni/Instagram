@@ -5,4 +5,10 @@ use_frameworks!
 
 target 'Instagram' do
     pod 'Parse'
+    pod 'ParseUI'
+    pod 'FBSDKCoreKit'
+    pod 'FBSDKLoginKit'
+    pod 'FBSDKShareKit'
+    pod 'NSDate+TimeAgo'
+    pod 'TimeAgoInWords'
 end

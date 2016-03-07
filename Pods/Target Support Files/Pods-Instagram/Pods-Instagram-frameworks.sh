@@ -85,9 +85,21 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Instagram/Bolts.framework"
+  install_framework "Pods-Instagram/FBSDKCoreKit.framework"
+  install_framework "Pods-Instagram/FBSDKLoginKit.framework"
+  install_framework "Pods-Instagram/FBSDKShareKit.framework"
+  install_framework "Pods-Instagram/NSDate_TimeAgo.framework"
   install_framework "Pods-Instagram/Parse.framework"
+  install_framework "Pods-Instagram/ParseUI.framework"
+  install_framework "Pods-Instagram/TimeAgoInWords.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Instagram/Bolts.framework"
+  install_framework "Pods-Instagram/FBSDKCoreKit.framework"
+  install_framework "Pods-Instagram/FBSDKLoginKit.framework"
+  install_framework "Pods-Instagram/FBSDKShareKit.framework"
+  install_framework "Pods-Instagram/NSDate_TimeAgo.framework"
   install_framework "Pods-Instagram/Parse.framework"
+  install_framework "Pods-Instagram/ParseUI.framework"
+  install_framework "Pods-Instagram/TimeAgoInWords.framework"
 fi

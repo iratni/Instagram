@@ -19,7 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
-        Parse.initializeWithConfiguration(
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+         Parse.initializeWithConfiguration(
             ParseClientConfiguration(block: { (configuration:ParseMutableClientConfiguration) -> Void in
                 configuration.applicationId = "Instagram"
                 configuration.clientKey = "YouYouYouYouYouYouYouYouYou"
@@ -32,13 +34,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("Current user detected: \(PFUser.currentUser()!.username)")
             let vc = storyboard.instantiateViewControllerWithIdentifier("TabBarController") as! UITabBarController
             window?.rootViewController = vc
+            window?.makeKeyAndVisible()
             
         } else {
             let vc = storyboard.instantiateViewControllerWithIdentifier("LoginViewController") as UIViewController
             window?.rootViewController = vc
+            window?.makeKeyAndVisible()
         }
         
-//        NSNotificationCenter.defaultCenter().addObserver(self, selector: "userDidLogout", name: userDidLoginNotification, object: nil)
         return true
    }
 
